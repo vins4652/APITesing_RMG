@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [HRM_Regression]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="browserName" value="firefox"/>
+    <classes>
+      <class name="branch_Module.Create_Branches">
+        <methods>
+          <include name="configAfterMethod"/>
+          <include name="create_Branches"/>
+          <include name="configBeforeSuite"/>
+          <include name="configAfterSuite"/>
+          <include name="configBeforeMethod"/>
+        </methods>
+      </class> <!-- branch_Module.Create_Branches -->
+      <class name="admin_Module.Validate_edited_HR_Head_Credentials">
+        <methods>
+          <include name="configAfterMethod"/>
+          <include name="configBeforeSuite"/>
+          <include name="configAfterSuite"/>
+          <include name="validate_edited_HR_Head_Credentials"/>
+          <include name="configBeforeMethod"/>
+        </methods>
+      </class> <!-- admin_Module.Validate_edited_HR_Head_Credentials -->
+      <class name="admin_Module.Create_Admin">
+        <methods>
+          <include name="configAfterMethod"/>
+          <include name="configBeforeSuite"/>
+          <include name="configAfterSuite"/>
+          <include name="configBeforeMethod"/>
+          <include name="create_Admin"/>
+        </methods>
+      </class> <!-- admin_Module.Create_Admin -->
+      <class name="admin_Module.Validate_Admin">
+        <methods>
+          <include name="configAfterMethod"/>
+          <include name="configBeforeSuite"/>
+          <include name="configAfterSuite"/>
+          <include name="validate_Admin"/>
+          <include name="configBeforeMethod"/>
+        </methods>
+      </class> <!-- admin_Module.Validate_Admin -->
+      <class name="admin_Module.Create_Employee_as_Head">
+        <methods>
+          <include name="configAfterMethod"/>
+          <include name="configBeforeSuite"/>
+          <include name="configAfterSuite"/>
+          <include name="create_Employee_as_Head"/>
+          <include name="configBeforeMethod"/>
+        </methods>
+      </class> <!-- admin_Module.Create_Employee_as_Head -->
+      <class name="corporate_Module.Create_Corporate">
+        <methods>
+          <include name="configAfterMethod"/>
+          <include name="create_Corporate"/>
+          <include name="configBeforeSuite"/>
+          <include name="configAfterSuite"/>
+          <include name="configBeforeMethod"/>
+        </methods>
+      </class> <!-- corporate_Module.Create_Corporate -->
+      <class name="admin_Module.Validate_the_Search_field_in_Admin_Module_for_HR_Head">
+        <methods>
+          <include name="configAfterMethod"/>
+          <include name="configBeforeSuite"/>
+          <include name="configAfterSuite"/>
+          <include name="validate_the_Search_field_in_Admin_Module_for_HR_Head"/>
+          <include name="configBeforeMethod"/>
+        </methods>
+      </class> <!-- admin_Module.Validate_the_Search_field_in_Admin_Module_for_HR_Head -->
+      <class name="employee_Module.Create_Admin">
+        <methods>
+          <include name="configAfterMethod"/>
+          <include name="configBeforeSuite"/>
+          <include name="configAfterSuite"/>
+          <include name="create_Admin"/>
+          <include name="configBeforeMethod"/>
+        </methods>
+      </class> <!-- employee_Module.Create_Admin -->
+      <class name="admin_Module.Create_Employee_as_Head_and_delete_Employee_as_Assistant">
+        <methods>
+          <include name="configAfterMethod"/>
+          <include name="configBeforeSuite"/>
+          <include name="configAfterSuite"/>
+          <include name="create_Employee_as_Head_and_delete_Employee_as_Assistant"/>
+          <include name="configBeforeMethod"/>
+        </methods>
+      </class> <!-- admin_Module.Create_Employee_as_Head_and_delete_Employee_as_Assistant -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [HRM_Regression] -->

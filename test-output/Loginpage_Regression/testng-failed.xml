@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Loginpage_Regression]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="FirefoxBrowserTesting(failed)">
+    <parameter name="browserName" value="firefox"/>
+    <classes>
+      <class name="login_Module.Login_as_Officer">
+        <methods>
+          <include name="configAfterMethod"/>
+          <include name="configBeforeSuite"/>
+          <include name="configAfterSuite"/>
+          <include name="configBeforeMethod"/>
+          <include name="login_as_Officer"/>
+        </methods>
+      </class> <!-- login_Module.Login_as_Officer -->
+    </classes>
+  </test> <!-- FirefoxBrowserTesting(failed) -->
+</suite> <!-- Failed suite [Loginpage_Regression] -->

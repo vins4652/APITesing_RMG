@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-15T17:10:36 IST" name="Default suite" finished-at="2023-05-15T17:10:45 IST" duration-ms="8899">
+    <groups>
+    </groups>
+    <test started-at="2023-05-15T17:10:36 IST" name="Default test" finished-at="2023-05-15T17:10:45 IST" duration-ms="8899">
+      <class name="apiTesting.CreateInUIValidateInAPI">
+        <test-method is-config="true" signature="beforeSuiteConfig()[pri:0, instance:apiTesting.CreateInUIValidateInAPI@158da8e]" started-at="2023-05-15T17:10:35 IST" name="beforeSuiteConfig" finished-at="2023-05-15T17:10:36 IST" duration-ms="1036" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuiteConfig -->
+        <test-method signature="createProjectInUI()[pri:1, instance:apiTesting.CreateInUIValidateInAPI@158da8e]" started-at="2023-05-15T17:10:36 IST" name="createProjectInUI" finished-at="2023-05-15T17:10:43 IST" duration-ms="6765" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createProjectInUI -->
+        <test-method signature="getTheCreatedProject()[pri:2, instance:apiTesting.CreateInUIValidateInAPI@158da8e]" started-at="2023-05-15T17:10:43 IST" name="getTheCreatedProject" finished-at="2023-05-15T17:10:44 IST" depends-on-methods="apiTesting.CreateInUIValidateInAPI.createProjectInUI" duration-ms="1894" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTheCreatedProject -->
+        <test-method signature="deleteProject()[pri:4, instance:apiTesting.CreateInUIValidateInAPI@158da8e]" started-at="2023-05-15T17:10:44 IST" name="deleteProject" finished-at="2023-05-15T17:10:45 IST" depends-on-methods="apiTesting.CreateInUIValidateInAPI.createProjectInUI" duration-ms="189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteProject -->
+        <test-method is-config="true" signature="afterSuiteConfug()[pri:0, instance:apiTesting.CreateInUIValidateInAPI@158da8e]" started-at="2023-05-15T17:10:45 IST" name="afterSuiteConfug" finished-at="2023-05-15T17:10:45 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuiteConfug -->
+      </class> <!-- apiTesting.CreateInUIValidateInAPI -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
